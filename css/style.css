@@ -119,6 +119,7 @@ background-color: rgb(193, 174, 174);
 .descripcion-main{
     color: whitesmoke;
     background-color: rgba(128,128,128, 0.315);
+    width: 25%;
 }
 .button-main{
     border: 0;
@@ -143,5 +144,8 @@ background-color: rgb(193, 174, 174);
     }
     .ubicacion{
         width: 100%;
+    }
+    .descripcion-main{
+        width: 50%;
     }
 }
