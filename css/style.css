@@ -4,26 +4,22 @@
 }
 .container{
     background-color: rgb(130, 69, 187);
-    height: fit-content;
+    
 }
-.header{
-    height: auto;
-}
+
 #nav-home{
     background-color: #DB79CB;
     display: flex;
     flex-direction: column;
 }
 .list-nav{
-    padding: 1em ;
     background-color: #EE4D9A;
     border-radius: 1.5em;
     color: white;
     text-decoration: none;
-
 }
 .boton-servicio, .boton-servicio:visited{
-    padding: 1em ;
+    
     background-color: #EE4D9A;
     border-radius: 1.5em;
     color: white;
@@ -43,7 +39,7 @@ font-size: xx-large;
 }
 .footer{
 background-color: rgb(193, 174, 174);
-height: auto;
+
 }
 .encabezado-nav{
     list-style: none;
@@ -64,7 +60,7 @@ height: auto;
     flex-direction: row-reverse !important;
 }
 .imagen-prueba-1{
-    height: 20vh;
+    width: 80px;
     margin-right: 2%;
 }
 
@@ -76,93 +72,66 @@ height: auto;
     flex-wrap: wrap;
     background-color: #D9D9D9;
     border-radius: 1.5em;
-    padding: 1.5em;
+    
 }
-.main-servicio{
-    height: auto;
-}
+
 .main-ubic{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-.ubicacion{
-    height: auto;
-}
-.ubicacion h2{
-    height: auto;
-}
-.ubicacion iframe{
-    height: auto;
-}
-.horarios{
-    height: auto;
-}
-.horarios h2{
-height: auto;
-}
-.horarios button{
-    height: auto;
-}
+
 .main-costos{
-    height: auto;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.main-info{
-    height: auto;
-}
 
 .costos{
-
-    margin: 5em;
     background-color:  #DB79CB ;
-    padding: 6em;
     border-radius: 2em;
-
 }
 .promociones{
-    margin: 5em;
     background-color: #DB79CB;
-    padding:6em ;
     border-radius: 2em;
-
 }
 .beneficios-limp{
-    margin: 5em;
     background-color: #DB79CB;
-    padding:6em ;
     border-radius: 2em;
 }
 .beneficios-masajes{
-    margin: 5em;
     background-color: #DB79CB;
-    padding:6em ;
     border-radius: 2em;
 }
 .beneficios-drenaje{
-    margin: 5em;
     background-color: #DB79CB;
-    padding:6em ;
     border-radius: 2em;
 }
 .img-fondo{
     background-image: url("../assets/imagenes/img-fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .relajacion{
-    height: auto;
     text-align: center;
 }
 
 .email-footer{
     display: inline;
-
 }
 .whats-footer{
     display: inline;
+}  
+@media only screen and (max-width:576px) {
+    .elemento-servicios{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 0.75em;
+    }
+    .inverso {
+        flex-direction: column !important;
+    }
 }
