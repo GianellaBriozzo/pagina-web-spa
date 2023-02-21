@@ -18,8 +18,9 @@
     color: white;
     text-decoration: none;
 }
-.boton-servicio, .boton-servicio:visited{
-    
+.boton-servicio,
+.boton-servicio a,
+ .boton-servicio a:visited{
     background-color: #EE4D9A;
     border-radius: 1.5em;
     color: white;
@@ -32,7 +33,6 @@
 
 #info-pag{
     background-color: #84426ebd;
-    text-align: center;
 }
 #info-pag h1{
 font-size: xx-large;
@@ -97,16 +97,8 @@ background-color: rgb(193, 174, 174);
     background-color: #DB79CB;
     border-radius: 2em;
 }
-.beneficios-limp{
-    background-color: #DB79CB;
-    border-radius: 2em;
-}
-.beneficios-masajes{
-    background-color: #DB79CB;
-    border-radius: 2em;
-}
-.beneficios-drenaje{
-    background-color: #DB79CB;
+.color-info{
+ background-color: #DB79CB;
     border-radius: 2em;
 }
 .img-fondo{
@@ -114,16 +106,31 @@ background-color: rgb(193, 174, 174);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.relajacion{
-    text-align: center;
-}
-
 .email-footer{
     display: inline;
 }
 .whats-footer{
     display: inline;
 }  
+.titulo-main{
+    color: rgb(197, 56, 190);
+    background-color:rgba(128,128,128, 0.315) ;
+}
+.descripcion-main{
+    color: whitesmoke;
+    background-color: rgba(128,128,128, 0.315);
+}
+.button-main{
+    border: 0;
+    background-color:rgba(168, 15, 15, 0.315) ;
+}
+.button-main a, .button-main a:visited{
+    color: #EE4D9A;
+    text-decoration: none;
+}
+.ubicacion{
+    width: 50%;
+}
 @media only screen and (max-width:576px) {
     .elemento-servicios{
         display: flex;
@@ -133,5 +140,8 @@ background-color: rgb(193, 174, 174);
     }
     .inverso {
         flex-direction: column !important;
+    }
+    .ubicacion{
+        width: 100%;
     }
 }
