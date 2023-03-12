@@ -1,0 +1,127 @@
+@import'./variables';
+@import './mixins';
+@import './mediaq';
+ *{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    background-color: rgb(130, 69, 187);
+    
+}
+
+#nav-home{
+    background-color: #DB79CB;
+    display: flex;
+    flex-direction: column;
+}
+.list-nav{
+    background-color: #EE4D9A;
+    border-radius: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.boton-servicio{
+    background-color: #EE4D9A;
+    border-radius: 1.5em;
+    a, a:visited{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.list-nav{
+    a,
+    a:visited{
+        color: white;
+        text-decoration:none
+    }
+} 
+#info-pag{
+    background-color: #84426ebd;
+    h1{
+        font-size: xx-large;
+    }
+}
+
+.footer{
+background-color: rgb(193, 174, 174);
+
+}
+.encabezado-nav{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+.lista-servicios{
+    list-style: none;
+}
+.elemento-servicios{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 0.75em;
+}
+.inverso {
+    flex-direction: row-reverse !important;
+}
+.imagen-prueba-1{
+    width: 80px;
+    margin-right: 2%;
+}
+
+.descripcion-servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+    border-radius: 1.5em;
+    
+}
+
+.costos{
+    @include colorFondoInfo;
+}
+.promociones{
+   @include colorFondoInfo;
+}
+.color-info{
+ @include colorFondoInfo;
+}
+.img-fondo{
+    background-image: url("../assets/imagenes/img-fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-main{
+    color: rgb(197, 56, 190);
+    background-color:$colorTituloDescripcion ;
+}
+.descripcion-main{
+    color: whitesmoke;
+    background-color: $colorTituloDescripcion;
+    width: 25%;
+}
+.button-main{
+    border: 0;
+    background-color:rgba(168, 15, 15, 0.315) ;
+    width: 5em;
+    height: 5em;
+        a,
+        a:visited{
+            color: #EE4D9A;
+        text-decoration: none;
+        }
+    }
+
+.ubicacion{
+    width: 50%;
+}
+@include MediaQSm;
+@include MediaQmd;

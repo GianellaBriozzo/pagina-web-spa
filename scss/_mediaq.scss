@@ -1,0 +1,42 @@
+
+
+@mixin MediaQSm {
+    @media only screen and (max-width:576px) {
+        .elemento-servicios{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-bottom: 0.75em;
+        }
+        .inverso {
+            flex-direction: column !important;
+        }
+        .ubicacion{
+            width: 100%;
+        }
+        .descripcion-main{
+            width: 50%;
+        }
+}}
+
+@mixin MediaQmd{
+    @media only screen and (min-width:576px) and (max-width: 768px){
+        .elemento-servicios{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-bottom: 0.75em;
+        }
+        .inverso {
+            flex-direction: column !important;
+        }
+        .ubicacion{
+            width: 100%;
+        }
+        .descripcion-main{
+            width: 50%;
+        }
+    }
+
+}
+
