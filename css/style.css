@@ -2,13 +2,8 @@
   margin: 0;
   height: 100%; }
 
-.container {
-  background-color: #8245bb; }
-
 #nav-home {
-  background-color: #DB79CB;
-  display: flex;
-  flex-direction: column; }
+  background-color: #DB79CB; }
 
 .list-nav {
   background-color: #EE4D9A;
@@ -35,11 +30,6 @@
 
 .footer {
   background-color: #c1aeae; }
-
-.encabezado-nav {
-  list-style: none;
-  display: inline-flex;
-  justify-content: space-evenly; }
 
 .lista-servicios {
   list-style: none; }
@@ -104,6 +94,19 @@
 
 .ubicacion {
   width: 50%; }
+
+table {
+  width: 100%; }
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  height: fit-content; }
+
+tr:nth-child(even) {
+  background-color: #dddddd; }
 
 @media only screen and (max-width: 576px) {
   .elemento-servicios {
