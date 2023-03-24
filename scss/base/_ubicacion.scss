@@ -1,0 +1,16 @@
+.ubicacion{
+    width: 50%;
+}
+table{
+    width: 100%
+}
+td,
+th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    height: fit-content;
+}
+tr:nth-child(even){
+    background-color: #dddddd; 
+}
