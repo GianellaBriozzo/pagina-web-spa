@@ -1,15 +1,23 @@
+#info-pag {
+  background-color: #84426ebd; }
+  #info-pag h1 {
+    font-size: xx-large; }
+
+.costos {
+  background-color: #DB79CB;
+  border-radius: 2em; }
+
+.promociones {
+  background-color: #DB79CB;
+  border-radius: 2em; }
+
+.color-info {
+  background-color: #DB79CB;
+  border-radius: 2em; }
+
 * {
   margin: 0;
   height: 100%; }
-
-#nav-home {
-  background-color: #DB79CB; }
-
-.list-nav {
-  background-color: #EE4D9A;
-  border-radius: 1.5em;
-  color: white;
-  text-decoration: none; }
 
 .boton-servicio {
   background-color: #EE4D9A;
@@ -17,19 +25,6 @@
   .boton-servicio a, .boton-servicio a:visited {
     color: white;
     text-decoration: none; }
-
-.list-nav a,
-.list-nav a:visited {
-  color: white;
-  text-decoration: none; }
-
-#info-pag {
-  background-color: #84426ebd; }
-  #info-pag h1 {
-    font-size: xx-large; }
-
-.footer {
-  background-color: #c1aeae; }
 
 .lista-servicios {
   list-style: none; }
@@ -45,7 +40,8 @@
 
 .imagen-prueba-1 {
   width: 80px;
-  margin-right: 2%; }
+  margin-right: 2%;
+  border-radius: 50%; }
 
 .descripcion-servicios {
   display: flex;
@@ -56,22 +52,40 @@
   background-color: #D9D9D9;
   border-radius: 1.5em; }
 
-.costos {
-  background-color: #DB79CB;
-  border-radius: 2em; }
+.ubicacion {
+  width: 50%; }
 
-.promociones {
-  background-color: #DB79CB;
-  border-radius: 2em; }
+table {
+  width: 100%; }
 
-.color-info {
-  background-color: #DB79CB;
-  border-radius: 2em; }
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  height: fit-content; }
+
+tr:nth-child(even) {
+  background-color: #dddddd; }
+
+.footer {
+  background-color: #c1aeae; }
 
 .img-fondo {
   background-image: url("../assets/imagenes/img-fondo.png");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.list-nav {
+  background-color: #EE4D9A;
+  border-radius: 1.5em;
+  color: white;
+  text-decoration: none; }
+
+.list-nav a,
+.list-nav a:visited {
+  color: white;
+  text-decoration: none; }
 
 .titulo-main {
   color: #c538be;
@@ -92,21 +106,8 @@
     color: #EE4D9A;
     text-decoration: none; }
 
-.ubicacion {
-  width: 50%; }
-
-table {
-  width: 100%; }
-
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
-  height: fit-content; }
-
-tr:nth-child(even) {
-  background-color: #dddddd; }
+#nav-home {
+  background-color: #DB79CB; }
 
 @media only screen and (max-width: 576px) {
   .elemento-servicios {
